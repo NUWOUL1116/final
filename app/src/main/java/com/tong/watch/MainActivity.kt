@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     // HealthConnectClient 선언
     private lateinit var healthConnectClient: HealthConnectClient
+    // ??
 
     // 권한 요청을 위한 launcher
     private val requestPermissionLauncher = registerForActivityResult(
