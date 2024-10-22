@@ -10,12 +10,11 @@ import androidx.health.connect.client.records.StepsRecord
 import androidx.health.connect.client.time.TimeRangeFilter
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
-import java.time.Instant
 import java.time.LocalDateTime
 import java.time.ZoneOffset
 
 class MainActivity : AppCompatActivity() {
-
+    //
     // HealthConnectClient 선언
     private lateinit var healthConnectClient: HealthConnectClient
     // ??
